@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('images/hero.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.intro {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-group {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-group h2 {
+    text-align: center;
+    color: white;
+}
+
+.contact-section {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    color: black;
+}
+
+.contact-section:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.contact-section h3 {
+    margin-top: 0;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .contact-group {
+        width: 90%;
+    }
+
+    .contact-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-section {
+        padding: 0.5rem;
+    }
+}
