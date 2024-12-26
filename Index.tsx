@@ -22,27 +22,27 @@ const Index: React.FC = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="add_ug.html">Admissions</a></li>
+                        <li><a href="index.tsx">Home</a></li>
+                        <li><a href="about.tsx">About</a></li>
+                        <li><a href="add_ug.tsx">Admissions</a></li>
                         <li className="dropdown">
                             <a href="#" className="dropbtn">Faculty</a>
                             <div className="dropdown-content">
-                                <a href="Btech_faculty.html">B.Tech's Faculties</a>
-                                <a href="Diploma_faculty.html">Diploma's Faculties</a>
-                                <a href="PG_faculty.html">PG's Faculties</a>
+                                <a href="Btech_faculty.tsx">B.Tech's Faculties</a>
+                                <a href="Diploma_faculty.tsx">Diploma's Faculties</a>
+                                <a href="PG_faculty.tsx">PG's Faculties</a>
                             </div>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.tsx">Contact Us</a></li>
                         <li className="dropdown">
                             <a href="#" className="dropbtn">UTD Map</a>
                             <div className="dropdown-content">
-                                <a href="Ground_floor.html">Ground Floor</a>
-                                <a href="Basement.html">Basement</a>
-                                <a href="First_floor.html">First Floor</a>
+                                <a href="Ground_floor.tsx">Ground Floor</a>
+                                <a href="Basement.tsx">Basement</a>
+                                <a href="First_floor.tsx">First Floor</a>
                             </div>
                         </li>
-                        <li><a href="Features.html">Unique Features</a></li>
+                        <li><a href="Features.tsx">Unique Features</a></li>
                     </ul>
                 </nav>
             </header>
@@ -66,16 +66,16 @@ const Index: React.FC = () => {
                     <a href="Academic calender/Academic_Calender.pdf">Academic Calendar</a>
                 </div>
                 <div className="link-item">
-                    <a href="alumini.html"><img src="images/mortarboard.png" alt="Alumni" /></a>
-                    <a href="alumini.html">Alumini</a>
+                    <a href="alumini.tsx"><img src="images/mortarboard.png" alt="Alumni" /></a>
+                    <a href="alumini.tsx">Alumni</a>
                 </div>
                 <div className="link-item">
-                    <a href="newsletter.html"><img src="images/Newsletter.png" alt="Newsletter" /></a>
-                    <a href="newsletter.html">Newsletter</a>
+                    <a href="newsletter.tsx"><img src="images/Newsletter.png" alt="Newsletter" /></a>
+                    <a href="newsletter.tsx">Newsletter</a>
                 </div>
                 <div className="link-item">
-                    <a href="clubs.html"><img src="images/Clubs.png" alt="Clubs" /></a>
-                    <a href="clubs.html">Clubs</a>
+                    <a href="clubs.tsx"><img src="images/Clubs.png" alt="Clubs" /></a>
+                    <a href="clubs.tsx">Clubs</a>
                 </div>
             </section>
 
@@ -97,8 +97,8 @@ const Index: React.FC = () => {
             <footer>
                 <div className="footer-content">
                     <div className="footer-links">
-                        <a href="privacy-policy.html">Privacy Policy</a>
-                        <a href="terms-of-service.html">Terms of Service</a>
+                        <a href="privacy-policy.tsx">Privacy Policy</a>
+                        <a href="terms-of-service.tsx">Terms of Service</a>
                     </div>
                     <div className="social-media">
                         <a href="#"><img src="images/facebook logo Background Removed.png" alt="Facebook" /></a>
