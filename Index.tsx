@@ -1,20 +1,21 @@
-import React from 'react';
-import './Index.css'; // Assuming CSS is in a separate file
+import React, { useState } from 'react';
+import './Index.css'; // Ensure this path is correct
 
 const Index: React.FC = () => {
+    const [isPopupVisible, setPopupVisible] = useState(true);
+
     const closePopup = () => {
-        const popup = document.getElementById('alertNotice');
-        if (popup) {
-            popup.style.display = 'none';
-        }
+        setPopupVisible(false);
     };
 
     return (
         <div id="content">
-            <div id="alertNotice" className="popup">
-                <span className="close" onClick={closePopup}>&times;</span>
-                <img src="Banners/admission_banner.png" alt="Banner Image" style={{ width: '80%', height: 'auto' }} />
-            </div>
+            {isPopupVisible && (
+                <div id="alertNotice" className="popup">
+                    <span className="close" onClick={closePopup}>&times;</span>
+                    <img src="Banners/admission_banner.png" alt="Banner Image" style={{ width: '80%', height: 'auto' }} />
+                </div>
+            )}
             <header>
                 <div className="logo">
                     <img src="images/csvtu logo.png" alt="Chhattisgarh Swami Vivekanand Technical University" />

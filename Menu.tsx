@@ -28,7 +28,7 @@ const Menu: React.FC = () => {
                         <li><a href="#">Employees</a></li>
                     </ul>
                 </nav>
-                <button onClick={() => window.location.href='index5.html'} className="close-btn" id="close-btn">&times;</button>
+                <button onClick={() => window.location.href='index5.tsx'} className="close-btn" id="close-btn">&times;</button>
             </header>
 
             <main>

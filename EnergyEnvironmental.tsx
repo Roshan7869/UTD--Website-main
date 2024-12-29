@@ -11,18 +11,18 @@ const EnergyEnvironmental: React.FC = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="add_ug.html">Admissions</a></li>
+                        <li><a href="index.tsx">Home</a></li>
+                        <li><a href="about.tsx">About</a></li>
+                        <li><a href="add_ug.tsx">Admissions</a></li>
                         <li className="dropdown">
                             <a href="#" className="dropbtn">Faculty</a>
                             <div className="dropdown-content">
-                                <a href="Btech_faculty.html">Btech's Faculties</a>
-                                <a href="Diploma_faculty.html">Diploma's Faculties</a>
-                                <a href="PG_faculty.html">PG's Faculties</a>
+                                <a href="Btech_faculty.tsx">Btech's Faculties</a>
+                                <a href="Diploma_faculty.tsx">Diploma's Faculties</a>
+                                <a href="PG_faculty.tsx">PG's Faculties</a>
                             </div>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.tsx">Contact Us</a></li>
                     </ul>
                 </nav>
             </header>

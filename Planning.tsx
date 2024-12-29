@@ -11,18 +11,18 @@ const Planning: React.FC = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="add_ug.html">Admissions</a></li>
+                        <li><a href="index.tsx">Home</a></li>
+                        <li><a href="about.tsx">About</a></li>
+                        <li><a href="add_ug.tsx">Admissions</a></li>
                         <li className="dropdown">
                             <a href="#" className="dropbtn">Faculty</a>
                             <div className="dropdown-content">
-                                <a href="Btech_faculty.html">Btech's Faculties</a>
-                                <a href="Diploma_faculty.html">Diploma's Faculties</a>
-                                <a href="PG_faculty.html">PG's Faculties</a>
+                                <a href="Btech_faculty.tsx">Btech's Faculties</a>
+                                <a href="Diploma_faculty.tsx">Diploma's Faculties</a>
+                                <a href="PG_faculty.tsx">PG's Faculties</a>
                             </div>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.tsx">Contact Us</a></li>
                     </ul>
                 </nav>
             </header>
@@ -43,12 +43,12 @@ const Planning: React.FC = () => {
                             <tr>
                                 <td><img src="Image/vision1.jpg" alt="Vision Image 1" width="100" /></td>
                                 <td>Our vision is to lead the future of Computer Science and AI research.</td>
-                                <td><a href="details/vision1.html">View Details</a></td>
+                                <td><a href="details/vision1.tsx">View Details</a></td>
                             </tr>
                             <tr>
                                 <td><img src="Image/vision2.jpg" alt="Vision Image 2" width="100" /></td>
                                 <td>Innovation and research in Data Science.</td>
-                                <td><a href="details/vision2.html">View Details</a></td>
+                                <td><a href="details/vision2.tsx">View Details</a></td>
                             </tr>
                         </tbody>
                     </table>
